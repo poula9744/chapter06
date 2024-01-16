@@ -35,7 +35,7 @@ public class server {
 		InputStreamReader isr = new InputStreamReader(is, "UTF-8");
 		BufferedReader br = new BufferedReader(isr);
 		
-		//메세지 보내기용 스트림
+		//out 메세지 보내기용 스트림
 		OutputStream os = socket.getOutputStream();
 		OutputStreamWriter isw = new OutputStreamWriter(os, "UTF-8");
 		BufferedWriter bw = new BufferedWriter(isw);
